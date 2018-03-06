@@ -1,0 +1,188 @@
+@charset "utf-8";
+
+.container{
+    border: none;
+    width: 90%;
+}
+#logo-h1{
+    margin: 20px 20px 10px 20px;
+    float:left;
+    border: none;
+}
+#logo-h1 img{
+    padding-top: 10px;
+}
+
+.h1-header{
+    margin-left: 100px;
+    font-family: Times New Roman Italic;
+    border: none;
+    float:right;
+    text-align: right;
+    margin-bottom:10px ;
+}
+.current{
+    color: #45a049;
+    font-weight: bold;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+header li {
+    float:left;
+    display:inline;
+    padding: 30px 20px 10px 10px;
+}
+.topnav{
+    width: 90%;
+    border: solid 1px;
+    float:left;
+    margin: 0px 20px 10px 20px;
+}
+header a:hover{
+    color: #45a049;
+    font-weight: bold;
+}
+header a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #252627;
+}
+#main-column-usluge {
+    float:left;
+    width: 60%;
+}
+#sidebar{
+    float: right;
+    width:35%;
+    background-color: aqua;
+}
+
+.service-box {
+    border-bottom: solid black 1px;
+    float:left;
+    /*margin-top: 100px;*/
+    margin-left: 25px;
+    width: 100%;
+}
+.img-box{
+    float:left;
+    width: 35%;
+}
+.funkcija{
+    margin-top: 10px;
+    float:left;
+    vertical-align:middle;
+}
+.proizvodi{
+    margin-top: 10px;
+    float:left;
+    vertical-align:middle;
+    line-height: 115px;
+}
+.funkcija h3{
+    text-align: center;
+    vertical-align: middle;
+}
+#main {
+    
+}
+.text-box {
+    display: inline-block;
+}
+ input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    resize: vertical;
+}
+input[type=submit] {
+    background-color:#252627;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+.galerija img{
+    width: 200px;
+    height: 200px;
+}
+.containercont {
+    border-radius: 5px;
+    padding: 20px;
+    width: 50%;
+    padding-top: 100px;
+}
+.text-box3 {
+    display: inline-block;
+    width: 60%;
+    background-color: red;
+}
+.text-box3 {
+    display: inline-block;
+    border-bottom: solid black 1px;
+    float: center;
+    margin-top: 100px;
+    margin-left: 25px;
+    width: 60%;
+
+}
+.text-box5 {
+    display: inline-block;
+    width: 80%;
+    
+}
+
+@media (max-width: 768px) {
+
+    .funkcija, .img-box, .proizvodi {
+        margin-top: 5px;
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    .service-box {
+        width: 90%;
+    }
+
+    .funkcija h3, .proizvodi {
+        margin-top: 5px;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 5px;
+    }
+
+    #sidebar, #main-column-usluge {
+        width: 95%;
+    }
+
+    .h1-header {
+        float: left;
+    }
+
+    #logo-h1 {
+        float: left;
+    }
+
+    .h1-header {
+        margin-left: 5px;
+
+    }
+}
+
+
+

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/script.js"></script>
+
+
+</head>
+<body>
+<header>
+    <div class="container">
+        <div id="logo-h1">
+            <a href="../index.html"><img src="../img/sportvision.png"></a>
+            <div class="h1-header"><h1>Dobar,bolji,najbolji,Sport Vision!</h1></div>
+        </div>
+        <nav>
+            <div class="topnav">
+                <ul>
+                    <li><a href="../index.html">Početna</a></li>
+                    <li><a href="../onama/index.html">O nama</a></li>
+                    <li><a href="../proizvodi/index.html">Proizvodi</a></li>
+                    <li><a href="../nastim/index.html">Zaposleni</a></li>
+                    <li><a href="index.html">Kontakt</a></li>
+                    <li class="current"><a href="../galerija/index.html">Galerija</a></li>
+                    <li><a href="../registracija/index.html">Registracija</a></li>
+
+                </ul>
+            </div>
+        </nav>
+    </div>
+</header>
+<section id="main">
+    <div class="container">
+        <article id="slide_img">
+            <!-- Images used to open the lightbox -->
+            <div class="row">
+                <div class="column">
+                    <img src="../img/dusan.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+                </div>
+                <div class="column">
+                    <img src="../img/miroljub.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+                </div>
+                <div class="column">
+                    <img src="../img/stancic.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+                </div>
+                <div class="column">
+                    <img src="../img/dusan.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+                </div>
+            </div>
+
+            <!-- The Modal/Lightbox -->
+            <div id="myModal" class="modal">
+                <span class="close cursor" onclick="closeModal()">&times;</span>
+                <div class="modal-content">
+
+                    <!-- Thumbnail image controls -->
+                    <div class="column">
+                        <img class="demo" src="../img/dusan.jpg" onclick="currentSlide(1)" alt="Opis1">
+                    </div>
+
+                    <div class="column">
+                        <img class="demo" src="../img/miroljub.jpg" onclick="currentSlide(2)" alt="Opis2">
+                    </div>
+
+                    <div class="column">
+                        <img class="demo" src="../img/stancic.jpg" onclick="currentSlide(3)" alt="Opis3">
+                    </div>
+
+                    <div class="column">
+                        <img class="demo" src="../img/dusan.jpg" onclick="currentSlide(4)" alt="Opis4">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">1 / 4</div>
+                        <img src="../img/dusan.jpg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">2 / 4</div>
+                        <img src="../img/miroljub.jpg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">3 / 4</div>
+                        <img src="../img/stancic.jpg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">4 / 4</div>
+                        <img src="../img/dusan.jpg" style="width:100%">
+                    </div>
+
+                    <!-- Next/previous controls -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                    <!-- Caption text -->
+                    <div class="caption-container">
+                        <p id="caption"></p>
+                    </div>
+                </div>
+            </div>
+
+            </article>
+    </div>
+</section>
+
+</body>
+</html>

@@ -1,3 +1,9 @@
+function otvoriStranu(url) {
+    document.location.href=url;
+
+}
+
+
 
 // Open the Modal
 function openModal() {

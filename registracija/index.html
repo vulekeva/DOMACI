@@ -3,9 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../css/style.css">
-
-    <script src="js/script.js"></script>
-
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="../js/effects.js"></script>
 </head>
 <body background="../img/pozadina4.jpg">
 <header>
@@ -62,6 +61,37 @@
     </div>
 
 </header>
+<section id="main">
+        <!-- Create Div First For Login Form -->
+        <div id="ulogujSe">
+            <form action="" method="post">
+                <h3>Login to your FormGet account.</h3>
+                <!---->
+                <img class="divider" src="../img/tike.png">
+                <input id="loginemail" placeholder="Email" type="text">
+                <input id="loginpassword" placeholder="Password" type="password">
+                <input id="login" type="button" value="Uloguj se">
+                <p id="one"><a href="#">Zaboravljen password?</a></p>
+                <!---->
+                <p class="two">Nemate nalog? <a class="signup" href="#" id="signup">Registruj se</a></p>
+            </form>
+        </div>
+        <!-- Create Div Second For Signup Form-->
+        <div id="registrujSe">
+            <form action="" id="form" method="post" name="form">
+                <h3>Kreirajte besplatan nalog</h3>
+                <!---->
+                <img class="divider" src="../img/tike.png">
+                <input id="name" placeholder="Full Name" type="text">
+                <input id="registeremail" placeholder="Email" type="text">
+                <input id="registerpassword" placeholder="Password" type="password">
+                <input id="contact" placeholder="Contact Number" type="text">
+                <input id="register" type="button" value="Kreiraj nalog">
+          <!---->
+                <p class="two">Vec imate nalog? <a class="signin" href="#" id="signin">Uloguj se</a></p>
+            </form>
+        </div>
+</section>
 
 
 
